@@ -1,0 +1,260 @@
+{
+  // tab 產生的空格數
+  "editor.tabSize": 2,
+  // icon theme
+  "workbench.iconTheme": "material-icon-theme",
+  // 字型大小
+  "editor.fontSize": 16,
+  // font-family
+  "editor.fontFamily": "'Fira Code', 'Microsoft JhengHei', Consolas, 'Courier New', monospace",
+  // 連字
+  "editor.fontLigatures": true,
+  // 開啟右側的 minimap
+  "editor.minimap.enabled": true,
+  // 不渲染實際字元，只用示意圖
+  "editor.minimap.renderCharacters": false,
+  // 多選時按住 ctrl (預設是 alt) + 滑鼠點擊
+  "editor.multiCursorModifier": "ctrlCmd",
+  // 視窗縮放比例
+  "window.zoomLevel": 0.5,
+  // 新增 emmet 對應語言
+  "emmet.includeLanguages": {
+    "vue": "javascript, scss",
+    "ejs": "html",
+    "html": "vue, javascript",
+    "javascript": "html",
+    "typescript": "html"
+  },
+  // snippet 建議顯示在最下方
+  "editor.snippetSuggestions": "bottom",
+  // 套件 Preview on web server 的設定
+  "previewServer.ignoreDefaultBrowser": true,
+  "previewServer.port": 7000,
+  "previewServer.browsers": [
+    "chrome"
+  ],
+  // 套件 todohighlight 的設定
+  "todohighlight.defaultStyle": {
+    "color": "yellow",
+    "backgroundColor": "green",
+    "fontWeight": "bold",
+    "overviewRulerColor": "green",
+    "isWholeLine": true
+  },
+  "todohighlight.keywords": [
+    "// SOLUTION1",
+    "// SOLUTION2",
+    "// SOLUTION3",
+    // 在 JS 要加雙斜線才不會被識別成內文 = =
+    {
+      "text": "// IMPORTANT",
+      "color": "#fff",
+      "backgroundColor": "#ff0000",
+      // 在 scrollbar 顯示的顏色
+      "overviewRulerColor": "#ff0000",
+      // 是否整行顯示顏色
+      "isWholeLine": true
+    },
+    {
+      "text": "// Q:",
+      "color": "#fff",
+      "backgroundColor": "#ff0000",
+      // 在 scrollbar 顯示的顏色
+      "overviewRulerColor": "#ff0000",
+      // 是否整行顯示顏色
+      "isWholeLine": true
+    },
+    {
+      "text": "<!-- DIVIDER -->",
+      "color": "blue",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "yellow",
+      "isWholeLine": true
+    },
+    {
+      "text": "/* DIVIDER */",
+      "color": "blue",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "yellow",
+      "isWholeLine": true
+    },
+    {
+      "text": "// DIVIDER",
+      "color": "blue",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "yellow",
+      "isWholeLine": true
+    },
+    {
+      "text": "// >>",
+      "color": "blue",
+      "backgroundColor": "#fff",
+      "overviewRulerColor": "aqua",
+      "isWholeLine": true
+    },
+    {
+      "text": "<!-- //",
+      "color": "blue",
+      "backgroundColor": "#fff",
+      "overviewRulerColor": "aqua",
+      "isWholeLine": true
+    },
+    {
+      "text": "<!-- *",
+      "color": "blue",
+      "backgroundColor": "#fffd8a",
+      "overviewRulerColor": "yellow",
+      "isWholeLine": true
+    },
+    {
+      "text": "<!-- !",
+      "color": "red",
+      "backgroundColor": "transparent",
+      "overviewRulerColor": "red",
+    },
+    {
+      "text": "{{-- !",
+      "color": "#ff3856",
+      "backgroundColor": "#69ffa2",
+      "overviewRulerColor": "green",
+      "isWholeLine": true
+    },
+    {
+      "text": "{{-- #",
+      "color": "blue",
+      "backgroundColor": "#78b5ff",
+      "overviewRulerColor": "aqua",
+      "isWholeLine": true
+    },
+    {
+      "text": "{{-- *",
+      "color": "blue",
+      "backgroundColor": "#fffd8a",
+      "overviewRulerColor": "yellow",
+      "isWholeLine": true
+    },
+    {
+      "text": "{{-- ^",
+      "color": "#2f6cfa",
+      "backgroundColor": "#fff",
+      "overviewRulerColor": "#fff",
+      "isWholeLine": true
+    },
+    {
+      "text": "//~",
+      "color": "red",
+      "backgroundColor": "transparent",
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "//-",
+      "color": "#7370ff",
+      "backgroundColor": "transparent",
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "//$",
+      "color": "#f758fc",
+      "backgroundColor": "transparent",
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "//^",
+      "color": "#34ebd5",
+      "backgroundColor": "transparent"
+    },
+    {
+      "text": "//#",
+      "color": "#ffffff",
+      "backgroundColor": "rgba(255, 106, 0, 0.3)",
+      "overviewRulerColor": "transparent",
+      "isWholeLine": true
+    },
+    {
+      "text": "/* used >> */",
+      "color": "#ffffff",
+      "backgroundColor": "transparent",
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "/* used << */",
+      "color": "#ffffff",
+      "backgroundColor": "transparent",
+      "overviewRulerColor": "transparent"
+    },
+  ],
+  // 套件 color-highlight 的設定
+  // 不要在 scrollbar 顯示顏色
+  // "color-highlight.markRuler": false,
+  // 套件 autoprefixer 的設定
+  "autoprefixer.browsers": [
+    "last 2 versions",
+    "> 1%",
+    "ie >= 10"
+  ],
+  // 套件 highlight matching tag 的設定
+  // 在下方狀態列顯示路徑
+  "highlight-matching-tag.showPath": true,
+  // 在 scrollbar 顯示標記
+  "highlight-matching-tag.showRuler": true,
+  // 關閉 vetur 的 lint，改用 ESLint + Prettier
+  "vetur.validation.template": false,
+  // 關閉 vetur 的 snippets，避免跟 sarah.drasner 的 snippets 衝突
+  "vetur.completion.scaffoldSnippetSources": {
+    "workspace": "",
+    "user": "",
+    "vetur": ""
+  },
+  // 是否使用 eslint
+  "eslint.enable": true,
+  // Eslint 會監控哪些檔案 (那些語法在 autoFixOnSave 開啟時會自動修正)
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  // 存檔時自動修正
+  "eslint.autoFixOnSave": true,
+  // 存檔時自動排版
+  "editor.formatOnSave": false,
+  "editor.suggestSelection": "first",
+  // 取消單字建議 (abc) 
+  "editor.wordBasedSuggestions": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // 預設使用的 formatter
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Cobalt2",
+  "javascript.referencesCodeLens.enabled": true,
+  "emmet.triggerExpansionOnTab": true,
+  "blade.format.enable": true,
+  // 每次點及檔案就開新 tab，要設成 false
+  "workbench.editor.enablePreview": false,
+  // TODO-TREE 的設定
+  "todo-tree.tree.showCountsInTree": true,
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "tasklist",
+      "iconColour": "yellow",
+      "type": "tag",
+      "background": "yellow",
+      "foreground": "blue"
+    },
+    "FIXME": {
+      "icon": "alert",
+      "type": "tag",
+      "foreground": "white",
+      "background": "red",
+      "iconColour": "red"
+    }
+  },
+}
